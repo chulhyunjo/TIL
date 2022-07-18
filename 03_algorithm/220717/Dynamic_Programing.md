@@ -199,3 +199,39 @@ for tc in range(int(input())):
     print(result)
 ```
 
+
+
+## 문제 5) 병사 배치
+
+> N명의 병사가 무작위로 나열, 각 병사는 특정한 값의 전투력을 보유
+>
+> 전투력이 높은 병사가 앞쪽에 오도록 내림차순으로 배치
+>
+> 배치 과정에서는 특정한 위치에 있는 병사를 열외시키는 방법을 이용. 남아 있는 병사의 수가 최대
+
+**가장 긴 증가하는 부분 수열(LIS)** 알려진 전형적인 DP 문제이다.
+
+array = {4, 2, 5, 8, 4, 11, 15}이라할때 가장 긴 증가 부분 수열은 {4,5,8,11,15}
+
+LIS를 조금 수정
+
+LIS 점화식 : 모든 0<=j<i에 대하여 d[i] = max(d[i], d[j]+1) if array[j] < array[i]
+
+```python
+n = int(input())
+array = list(map(int, input().split()))
+# 순서를 뒤집어 '최장 증가 부분 수열' 문제로 변환
+
+array.reverse()
+
+dp = [1] * n
+
+#가장 긴 증가하는 부분 수열 LIS 알고리즘 수행
+for i in range(1, n):
+    for j in range(0, i):
+        if array[j] < array[i]:
+            dp[i] = max(dp[i], d[j] + 1)
+# 열외해야 하는 병사의 최소 수를 출력
+print(n - max(dp))
+```
+
