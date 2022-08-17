@@ -42,7 +42,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.파스칼삼각형_2">
+  <component name="RunManager" selected="Python.boj17299">
     <configuration name="파스칼삼각형_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="03_algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -171,10 +171,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.boj17299" />
         <item itemvalue="Python.파스칼삼각형_2" />
         <item itemvalue="Python.swea 파스칼 삼각형" />
         <item itemvalue="Python.fibo_dp" />
-        <item itemvalue="Python.boj17299" />
         <item itemvalue="Python.swea회문_1" />
       </list>
     </recent_temporary>
@@ -223,6 +223,16 @@
           <url>file://$PROJECT_DIR$/220817/boj2593 영역 구하기.py</url>
           <line>35</line>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/220817/practice2.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/220817/practice.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
