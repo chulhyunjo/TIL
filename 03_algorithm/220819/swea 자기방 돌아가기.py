@@ -3,14 +3,14 @@ for tc in range(1, int(input())+1):
     rooms = []
 
     for _ in range(n):
-        rooms.append(list(map(int,input().split())))
+        a, b = map(int,input().split())
+        if a > b:
+            a, b = b, a
+        rooms.append([(a+1)//2,(b+1)//2])
+    now_range = [0] * 201
+    while rooms:
+        x, y = rooms.pop()
+        for i in range(x,y+1):
+            now_range[i] += 1
 
-    # while rooms:
-    now_range = [0] * 401
-    for room in rooms:
-        x, y = room[0], room[1]
-        if now_range[x:y+1].count(1):
-            continue
-        else:
-            now_range[x:y+1] = [1] * (y-x)
-    print(now_range)
+    print(f'#{tc} {max(now_range)}')
