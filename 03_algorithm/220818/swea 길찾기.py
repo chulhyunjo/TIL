@@ -21,3 +21,4 @@ for _ in range(10):
     if 99 in move:                          # 마지막 칸 99으로 이동 할 수 있으면 '1'
         result = 1
     print(f'#{t} {result}')
+    print(move)
