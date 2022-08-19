@@ -10,14 +10,14 @@ def spin(array):
 for tc in range(1, int(input())+1):
     n = int(input())
     arr = [list(map(int,input().split())) for _ in range(n)]
-    spin_arr1 = spin(arr)
-    spin_arr2 = spin(spin_arr1)
-    spin_arr3 = spin(spin_arr2)
-
-    result_arr = [[0]*n  for _ in range(n)]
+    spin_arr = []
+    for i in range(3):
+        arr = spin(arr)
+        spin_arr.append(arr)
+    print(f'#{tc}')
     for i in range(n):
-        for j in range(n):
-            for k in range(n):
-                
-
-    print(result_arr)
+        for j in range(3):
+            for k in spin_arr[j][i]:
+                print(k,end='')
+            print('', end = ' ')
+        print()
