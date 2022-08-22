@@ -13,10 +13,9 @@ for _ in range((n*n)-1):
     minJ = j
 
     moved[i][j] = 1
-    moving = moved[:]
     for a in range(n):
         for b in range(n):
-            if arr[minI][minJ] > arr[a][b] and moving[a][b] == 0:
+            if arr[minI][minJ] > arr[a][b] and moved[a][b] == 0:
                 minI, minJ = a, b
     arr[i][j], arr[minI][minJ] = arr[minI][minJ], arr[i][j]
 
