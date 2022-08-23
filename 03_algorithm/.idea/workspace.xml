@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cbe2b35a-a67b-437f-996c-8554b1d0d120" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/220810/snailSort.py" beforeDir="false" afterPath="$PROJECT_DIR$/220810/snailSort.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +111,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="boj2210" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="boj2527 직사각형" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="03_algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -120,11 +119,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/220819" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/220823" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/220819/boj2210.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/220823/boj2527 직사각형.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -198,11 +197,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.boj2527 직사각형" />
         <item itemvalue="Python.stack2_부분집합" />
         <item itemvalue="Python.swea 부분배열의 합" />
         <item itemvalue="Python.boj9663 N-Queen" />
         <item itemvalue="Python.카운팅정렬 연습" />
-        <item itemvalue="Python.boj2210" />
       </list>
     </recent_temporary>
   </component>
@@ -396,7 +395,62 @@
           <line>28</line>
           <option name="timeStamp" value="65" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/220823/swea forth.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/220823/swea 토너먼트 카드게임.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/220823/swea 토너먼트 카드게임.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/220823/boj2491 수열.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/220823/swea 보급로.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/220823/swea 보급로.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/220823/p.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/220823/p.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/220823/swea 계산기3.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/220823/boj1918 후위표기식.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="result" language="Python" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
