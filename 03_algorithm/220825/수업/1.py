@@ -1,36 +1,25 @@
-string = input()[::-1]
-stack = []
-digit = []
-close_idx = []
-temp = 0
+from collections import deque
 
-for i in range(len(string)):
-    s = string[i]
+n = int(input())
+paper_input = list(map(int, input().split()))
+paper = deque()
+for val in paper_input:
+    paper.append(val)
+ball = deque()
+for i in range(1, n+1):
+    ball.append(i)
+res = []
+Top = 0
 
-    if s == ')':
-        close_idx.append(i)
-        stack.append(s)
+while len(ball) > 0:
+    b = ball.popleft()
+    r = paper.popleft()
+    if Top < r:
+        if Top != -1:
+            r -= 1
 
-    elif s == '(':
-        prev = 0
-        while prev != ')':
-            prev = stack.pop()
-            temp += len(prev)
+    res.append(b)
+    ball.rotate(-r)
+    paper.rotate(-r)
 
-        a = close_idx.pop()
-        check = string[a:i].count('(')
-
-        for j in range(check):
-            try:
-                temp += digit.pop()
-            except IndexError:
-                break
-    elif temp:
-        digit.append((temp - 1) * int(s))
-        temp = 0
-
-    else:
-        stack.append(s)
-
-print(len(stack) + sum(digit))
-print(stack, digit)
+print(*res)
