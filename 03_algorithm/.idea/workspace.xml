@@ -578,5 +578,10 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="space[num-dis]" language="Python" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
