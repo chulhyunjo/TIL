@@ -1,28 +1,33 @@
-for tc in range(1, int(input()) + 1):
+def cross(n, bd):  # 대각선 체크
+    j = 0
+    while n - j > 0:
+        cnt_left = 0
+        cnt_right = 0
+        for p in range(n):
+            if p + j < n and bd[p][p + j] == 'o':  # 왼쪽에서 내려가는 대각선
+                cnt_left += 1
+                if cnt_left >= 5:
+                    return 1
+            elif p + j < n and bd[p][p + j] != 'o':  # .을 만나면 초기화
+                cnt_left = 0
+
+            if p - j >= 0 and bd[n - p - 1][p - j] == 'o':  # 오른쪽에서 내려가는 대각선
+                cnt_right += 1
+                if cnt_right >= 5:
+                    return 1
+            elif p - j >= 0 and bd[n - p - 1][p - j] != 'o':
+                cnt_right = 0
+
+        j += 1
+
+
+T = int(input())
+
+for tc in range(1, T + 1):
     n = int(input())
-    arr = [[0] * n for _ in range(n)]
-    dx = [0, 1, 0, -1]
-    dy = [1, 0, -1, 0]
+    bd = [list(input()) for _ in range(n)]
 
-    move = 0
-    cnt = 1
-    i = j = 0
-    while cnt <= n * n:
-        if arr[i][j] == 0:
-            arr[i][j] = cnt
-            cnt += 1
-
-        nx = i + dx[move]
-        ny = j + dy[move]
-
-        if 0 <= nx < n and 0 <= ny < n and arr[nx][ny] == 0:
-            i, j = nx, ny
-        else:
-            move = (move + 1) % 4
-            i, j = i + dx[move], j + dy[move]
-
-    print(f'#{tc}')
-    for i in range(n):
-        for j in range(n):
-            print(arr[i][j], end=' ')
-        print()
+    if cross(n, bd):
+        print(f'#{tc} YES')
+    else:
+        print("NO")
