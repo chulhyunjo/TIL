@@ -667,12 +667,21 @@
           <line>16</line>
           <option name="timeStamp" value="159" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/220902/boj물통.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="160" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/220903/삼각함수연습.py</url>
+          <line>67</line>
+          <option name="timeStamp" value="161" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
-        <watch expression="graph" language="Python" />
-        <watch expression="x//m*m, x//m *m+ m" language="Python" />
+        <watch expression="next_w" language="Python" />
       </configuration>
     </watches-manager>
   </component>
