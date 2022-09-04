@@ -6,6 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="cbe2b35a-a67b-437f-996c-8554b1d0d120" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/220829/boj/boj 단지번호 붙이기.py" beforeDir="false" afterPath="$PROJECT_DIR$/220829/boj/boj 단지번호 붙이기.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/220829/boj/boj20291 파일 정리.py" beforeDir="false" afterPath="$PROJECT_DIR$/220829/boj/boj20291 파일 정리.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/220830/boj 안전영역.py" beforeDir="false" afterPath="$PROJECT_DIR$/220830/boj 안전영역.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/220830/boj2606 바이러스.py" beforeDir="false" afterPath="$PROJECT_DIR$/220830/boj2606 바이러스.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/220830/boj연결요소의 개수.py" beforeDir="false" afterPath="$PROJECT_DIR$/220830/boj연결요소의 개수.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +53,7 @@
       <recent name="C:\Users\chaom\ssafy8\04_TIL\03_algorithm\220822" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.10157">
     <configuration name="10157" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="03_algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -633,11 +638,6 @@
           <option name="timeStamp" value="151" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/220830/boj연결요소의 개수.py</url>
-          <line>6</line>
-          <option name="timeStamp" value="152" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/220901/boj보물섬.py</url>
           <line>28</line>
           <option name="timeStamp" value="154" />
@@ -677,12 +677,17 @@
           <line>67</line>
           <option name="timeStamp" value="161" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/220904/boj 색종이 만들기.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="162" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/220904/boj 토마토.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="163" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="PythonConfigurationType">
-        <watch expression="next_w" language="Python" />
-      </configuration>
-    </watches-manager>
   </component>
 </project>
