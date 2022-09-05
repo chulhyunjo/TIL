@@ -53,7 +53,7 @@ def angle_ans(white, finded_point):
 def find_cusion(white, point):
     cusion_x = (white[0] + point[0]) / 2
     cusion_y = (white[1] + point[1]) / 2
-    return [cusion_x, 0]
+    return [[cusion_x, 0], [cusion_x, 130], [0, cusion_y,], [260, cusion_y]]
 
 
 ball = [7, 10]
@@ -84,16 +84,17 @@ for ball2 in balls:
     if not result_goal:
         for goal in goals:
             point = find_point(goal, ball2)
-            cusion = find_cusion(ball,point)
-            if is_in_degree(cusion,point,goal):
-                if point_line_distance(cusion, point, op_ball) <= 5.73:
-                    continue
-                if point_line_distance(ball2, goal, op_ball) <= 5.73:
-                    continue
-                result_goal = goal
-                use_cusion = True
-            if result_goal:
-                break
+            cusions = find_cusion(ball,point)
+            for cusion in cusions:
+                if is_in_degree(cusion,point,goal):
+                    if point_line_distance(cusion, point, op_ball) <= 5.73:
+                        continue
+                    if point_line_distance(ball2, goal, op_ball) <= 5.73:
+                        continue
+                    result_goal = goal
+                    use_cusion = True
+                if result_goal:
+                    break
 
     if use_cusion:
         angle = angle_ans(ball, cusion)
