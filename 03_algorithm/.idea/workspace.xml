@@ -6,7 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="cbe2b35a-a67b-437f-996c-8554b1d0d120" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/220903/삼각함수연습.py" beforeDir="false" afterPath="$PROJECT_DIR$/220903/삼각함수연습.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/220829/boj/boj18870 좌표 압축.py" beforeDir="false" afterPath="$PROJECT_DIR$/220829/boj/boj18870 좌표 압축.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/220831/boj음식물 피하기.py" beforeDir="false" afterPath="$PROJECT_DIR$/220831/boj음식물 피하기.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/220901/boj 스타트와 링크.py" beforeDir="false" afterPath="$PROJECT_DIR$/220901/boj 스타트와 링크.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/220901/boj13565 침투.py" beforeDir="false" afterPath="$PROJECT_DIR$/220901/boj13565 침투.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/220901/boj그림.py" beforeDir="false" afterPath="$PROJECT_DIR$/220901/boj그림.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +53,7 @@
       <recent name="C:\Users\chaom\ssafy8\04_TIL\03_algorithm\220822" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.10157">
     <configuration name="10157" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="03_algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />

@@ -6,8 +6,8 @@ dy = [1, -1, 0, 0]
 
 
 def dfs(x,y):
-    global result
-    graph[x][y] = 1
+    global result           # 최종 결과값
+    graph[x][y] = 1         # 현재 위치 방문
     for q in range(4):
         nx = x + dx[q]
         ny = y + dy[q]
@@ -15,7 +15,7 @@ def dfs(x,y):
             if graph[nx][ny] == 0:
                 dfs(nx,ny)
 
-        if nx >= n:
+        if nx >= n:         # 만약 아래로 벗어나면 전류가 전달되는 것
             result = 1
 
 
@@ -23,10 +23,10 @@ n, m = map(int,input().split())
 graph = [list(map(int,input().rstrip())) for _ in range(n)]
 result = 0
 for i in range(m):
-    if graph[0][i] == 0:
+    if graph[0][i] == 0:    # 전류가 잘통하는 곳이면 dfs탐색
         dfs(0,i)
-    if result:
+    if result:              # 결과가 나왔다면 break
         break
 
-if result: print("YES")
+if result: print("YES")     # 전류가 흐르면 YES 아니면 NO
 else: print("NO")
