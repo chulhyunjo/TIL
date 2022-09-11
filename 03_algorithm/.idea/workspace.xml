@@ -6,6 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="cbe2b35a-a67b-437f-996c-8554b1d0d120" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/220902/boj물통.py" beforeDir="false" afterPath="$PROJECT_DIR$/220902/boj물통.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/220902/boj인구 이동.py" beforeDir="false" afterPath="$PROJECT_DIR$/220902/boj인구 이동.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/220904/boj 색종이 만들기.py" beforeDir="false" afterPath="$PROJECT_DIR$/220904/boj 색종이 만들기.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/220904/boj 토마토.py" beforeDir="false" afterPath="$PROJECT_DIR$/220904/boj 토마토.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +52,7 @@
       <recent name="C:\Users\chaom\ssafy8\04_TIL\03_algorithm\220822" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.10157">
     <configuration name="10157" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="03_algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -664,7 +668,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/220902/boj물통.py</url>
-          <line>8</line>
+          <line>9</line>
           <option name="timeStamp" value="160" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -679,7 +683,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/220904/boj 토마토.py</url>
-          <line>19</line>
+          <line>20</line>
           <option name="timeStamp" value="163" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
