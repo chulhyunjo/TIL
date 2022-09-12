@@ -702,7 +702,20 @@
           <line>7</line>
           <option name="timeStamp" value="174" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/220912/boj ABCDE.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="196" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="cnt + dfs(arr,v,w)" language="Python" />
+        <watch expression="v" language="Python" />
+        <watch expression="dfs(graph,i)" language="Python" />
+        <watch expression="dfs(i)" language="Python" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
