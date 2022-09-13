@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cbe2b35a-a67b-437f-996c-8554b1d0d120" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../02_python/220913/트리.md" beforeDir="false" afterPath="$PROJECT_DIR$/../02_python/220913/트리.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +49,7 @@
       <recent name="C:\Users\chaom\ssafy8\04_TIL\03_algorithm\220822" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.10157">
+  <component name="RunManager">
     <configuration name="10157" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="03_algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -698,14 +699,9 @@
           <option name="timeStamp" value="173" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/220911/boj 톱니바퀴.py</url>
-          <line>7</line>
-          <option name="timeStamp" value="174" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/220912/boj ABCDE.py</url>
-          <line>17</line>
-          <option name="timeStamp" value="196" />
+          <url>file://$PROJECT_DIR$/2209/220913/class/중위순회.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="197" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
