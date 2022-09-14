@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cbe2b35a-a67b-437f-996c-8554b1d0d120" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../02_python/220913/트리.md" beforeDir="false" afterPath="$PROJECT_DIR$/../02_python/220913/트리.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -703,14 +702,31 @@
           <line>12</line>
           <option name="timeStamp" value="197" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/2209/220914/boj/9934.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="198" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/2209/220914/boj/25512.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="208" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/2209/220914/boj/25512.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="209" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/2209/220914/swea/노드의합.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="210" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
-        <watch expression="cnt + dfs(arr,v,w)" language="Python" />
-        <watch expression="v" language="Python" />
-        <watch expression="dfs(graph,i)" language="Python" />
-        <watch expression="dfs(i)" language="Python" />
+        <watch expression="tree" language="Python" />
       </configuration>
     </watches-manager>
   </component>
