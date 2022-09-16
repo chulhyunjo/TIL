@@ -14,11 +14,9 @@ def inorder(i):
 
 def inorder_cnt(i):
     global cnt
-    move = 0
     c = tree.get(i)
     if c[0] != -1:
         cnt += 1
-        move += 1
         inorder_cnt(c[0])
     if c[1] != -1:
         cnt += 1
