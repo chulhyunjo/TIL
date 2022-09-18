@@ -6,6 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="cbe2b35a-a67b-437f-996c-8554b1d0d120" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2209/220915/boj/5639_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/2209/220915/boj/5639_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2209/220916/boj/트리순회2.py" beforeDir="false" afterPath="$PROJECT_DIR$/2209/220916/boj/트리순회2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2209/220917/boj/미로 탐색.py" beforeDir="false" afterPath="$PROJECT_DIR$/2209/220917/boj/미로 탐색.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2209/220917/boj/숨바꼭질 2.py" beforeDir="false" afterPath="$PROJECT_DIR$/2209/220917/boj/숨바꼭질 2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2209/220917/boj/숨바꼭질.py" beforeDir="false" afterPath="$PROJECT_DIR$/2209/220917/boj/숨바꼭질.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2209/220917/boj/아기상어2.py" beforeDir="false" afterPath="$PROJECT_DIR$/2209/220917/boj/아기상어2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2209/220917/boj/양 구출 작전.py" beforeDir="false" afterPath="$PROJECT_DIR$/2209/220917/boj/양 구출 작전.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2209/220917/boj/연산자 끼워넣기.py" beforeDir="false" afterPath="$PROJECT_DIR$/2209/220917/boj/연산자 끼워넣기.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,11 +52,12 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\chaom\ssafy8\04_TIL\03_algorithm\2209\220918\boj" />
       <recent name="C:\Users\chaom\ssafy8\04_TIL\03_algorithm\220824\IM대비" />
       <recent name="C:\Users\chaom\ssafy8\04_TIL\03_algorithm\220822" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.10157">
     <configuration name="10157" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="03_algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -729,7 +738,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/2209/220915/boj/5639_2.py</url>
-          <line>4</line>
+          <line>8</line>
           <option name="timeStamp" value="214" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -849,7 +858,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/2209/220917/boj/양 구출 작전.py</url>
-          <line>25</line>
+          <line>26</line>
           <option name="timeStamp" value="279" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -862,13 +871,22 @@
           <line>22</line>
           <option name="timeStamp" value="288" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/2209/220918/boj/가장가까운 공통 조상.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="289" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/2209/220918/boj/가장가까운 공통 조상.py</url>
+          <line>45</line>
+          <option name="timeStamp" value="290" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
-        <watch expression="size" language="Python" />
-        <watch expression="graph" />
-        <watch expression="move" language="Python" />
+        <watch expression="cnt" language="Python" />
+        <watch expression="result" language="Python" />
       </configuration>
     </watches-manager>
   </component>
