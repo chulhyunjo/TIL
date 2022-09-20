@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cbe2b35a-a67b-437f-996c-8554b1d0d120" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../08_cpp/220918/01_c++ 시작하기.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +44,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\chaom\ssafy8\04_TIL\03_algorithm\2209\220920\swea" />
       <recent name="C:\Users\chaom\ssafy8\04_TIL\03_algorithm\2209\220918\boj" />
       <recent name="C:\Users\chaom\ssafy8\04_TIL\03_algorithm\220824\IM대비" />
       <recent name="C:\Users\chaom\ssafy8\04_TIL\03_algorithm\220822" />
@@ -884,14 +884,27 @@
           <line>14</line>
           <option name="timeStamp" value="298" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/2209/220920/swea/암호 코드 스캔.py</url>
+          <line>44</line>
+          <option name="timeStamp" value="302" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/2209/220920/swea/암호 코드 스캔.py</url>
+          <line>37</line>
+          <option name="timeStamp" value="305" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/2209/220920/swea/암호코드 스캔.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="336" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/2209/220920/boj/동전.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="337" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="PythonConfigurationType">
-        <watch expression="visited" language="Python" />
-        <watch expression="cnt2" language="Python" />
-        <watch expression="cnt1" language="Python" />
-      </configuration>
-    </watches-manager>
   </component>
 </project>
