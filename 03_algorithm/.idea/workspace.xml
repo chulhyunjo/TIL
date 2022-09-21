@@ -904,7 +904,32 @@
           <line>6</line>
           <option name="timeStamp" value="337" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/2209/220921/class/babygin.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="338" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/2209/220921/class/babygin.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="341" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/2209/220921/class/최대상금.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="347" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/2209/220921/class/최대상금2.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="348" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="number,maxV" language="Python" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
