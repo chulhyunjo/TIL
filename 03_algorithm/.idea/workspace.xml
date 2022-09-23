@@ -50,7 +50,7 @@
       <recent name="C:\Users\chaom\ssafy8\04_TIL\03_algorithm\220822" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.10157">
+  <component name="RunManager">
     <configuration name="10157" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="03_algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -939,11 +939,53 @@
           <line>7</line>
           <option name="timeStamp" value="352" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/2209/220923/class/정식이의 은행업무.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="353" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/2209/220923/class/높은 선반.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="356" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/2209/220923/class/높은 선반.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="357" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/2209/220923/class/디저트.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="371" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/2209/220923/class/미생물.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="372" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/2209/220923/boj/팰랜드롬 만들기.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="374" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/2209/220923/boj/차이를 최대로.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="375" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/2209/220923/class/1.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="376" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
-        <watch expression="number,maxV" language="Python" />
+        <watch expression="cell" />
+        <watch expression="visited" language="Python" />
+        <watch expression="after_cell" language="Python" />
       </configuration>
     </watches-manager>
   </component>
