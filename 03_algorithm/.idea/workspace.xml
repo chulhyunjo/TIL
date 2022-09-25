@@ -950,11 +950,6 @@
           <option name="timeStamp" value="356" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/2209/220923/class/높은 선반.py</url>
-          <line>13</line>
-          <option name="timeStamp" value="357" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/2209/220923/class/디저트.py</url>
           <line>34</line>
           <option name="timeStamp" value="371" />
@@ -979,13 +974,36 @@
           <line>17</line>
           <option name="timeStamp" value="376" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/2209/220923/class/미생물.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="377" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/2209/220925/boj/외계인의 기타 연주.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="379" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/2209/220925/boj/무한 이진트리.py</url>
+          <option name="timeStamp" value="381" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/2209/220925/boj/그래프 탐색 2.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="384" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/2209/220925/boj/그래프 탐색 2.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="386" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
-        <watch expression="cell" />
-        <watch expression="visited" language="Python" />
-        <watch expression="after_cell" language="Python" />
+        <watch expression="graph" language="Python" />
+        <watch expression="result" language="Python" />
       </configuration>
     </watches-manager>
   </component>
