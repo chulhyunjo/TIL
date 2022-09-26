@@ -998,12 +998,16 @@
           <line>24</line>
           <option name="timeStamp" value="386" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/2209/220926/boj/주사위 윷놀이.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="387" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
-        <watch expression="graph" language="Python" />
-        <watch expression="result" language="Python" />
+        <watch expression="ans" language="Python" />
       </configuration>
     </watches-manager>
   </component>
