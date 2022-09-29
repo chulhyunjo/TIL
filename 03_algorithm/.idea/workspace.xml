@@ -1053,6 +1053,11 @@
           <line>7</line>
           <option name="timeStamp" value="411" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/2209/220929/class/그룹나누기.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="412" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
