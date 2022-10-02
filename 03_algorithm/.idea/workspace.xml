@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cbe2b35a-a67b-437f-996c-8554b1d0d120" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2209/220929/class/1.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +45,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\chaom\ssafy8\04_TIL\03_algorithm\2210\221001\boj" />
       <recent name="C:\Users\chaom\ssafy8\04_TIL\03_algorithm\2209\220920\swea" />
       <recent name="C:\Users\chaom\ssafy8\04_TIL\03_algorithm\2209\220918\boj" />
       <recent name="C:\Users\chaom\ssafy8\04_TIL\03_algorithm\220824\IM대비" />
@@ -1057,6 +1059,16 @@
           <url>file://$PROJECT_DIR$/2209/220929/class/그룹나누기.py</url>
           <line>14</line>
           <option name="timeStamp" value="412" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/2210/221001/boj/N과M(4).py</url>
+          <line>3</line>
+          <option name="timeStamp" value="413" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/2210/221001/boj/N과 M(9).py</url>
+          <line>5</line>
+          <option name="timeStamp" value="414" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
