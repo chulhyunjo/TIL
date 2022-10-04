@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cbe2b35a-a67b-437f-996c-8554b1d0d120" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06_CS지식/면접을 위한 CS 지식 노트/2.네트워크/2.1 네트워크의 기초.md" beforeDir="false" afterPath="$PROJECT_DIR$/../06_CS지식/면접을 위한 CS 지식 노트/2.네트워크/2.1 네트워크의 기초.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,14 +45,14 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\chaom\ssafy8\04_TIL\03_algorithm\2210\221004" />
       <recent name="C:\Users\chaom\ssafy8\04_TIL\03_algorithm\2210\221001\boj" />
       <recent name="C:\Users\chaom\ssafy8\04_TIL\03_algorithm\2209\220920\swea" />
       <recent name="C:\Users\chaom\ssafy8\04_TIL\03_algorithm\2209\220918\boj" />
       <recent name="C:\Users\chaom\ssafy8\04_TIL\03_algorithm\220824\IM대비" />
-      <recent name="C:\Users\chaom\ssafy8\04_TIL\03_algorithm\220822" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.10157">
     <configuration name="10157" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="03_algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -1069,13 +1070,22 @@
           <line>5</line>
           <option name="timeStamp" value="414" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/2210/221004/게리맨더링.py</url>
+          <line>39</line>
+          <option name="timeStamp" value="417" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/2210/221004/게리맨더링.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="419" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/2210/221004/게리맨더링2.py</url>
+          <line>46</line>
+          <option name="timeStamp" value="427" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="PythonConfigurationType">
-        <watch expression="arr[i]" language="Python" />
-        <watch expression="team" language="Python" />
-      </configuration>
-    </watches-manager>
   </component>
 </project>
