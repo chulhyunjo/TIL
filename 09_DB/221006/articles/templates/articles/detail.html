@@ -1,0 +1,52 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <div class="container">
+    <div>
+    <h1 class="fw-bolder text-start">{{ article.title }}</h1>
+    <p class="text-end">작성자 : {{ article.user }}</p>
+    <p class="text-end">작성일자 : {{ article.created_at }}</p>
+    </div>
+    <hr>
+    {{ article.content|linebreaksbr }}
+    
+
+    <hr>
+    <div class="d-flex justify-content-end">  
+    {% if user == article.user %}
+      <a href="{% url 'articles:update' article.pk%}" class="btn btn-secondary btn-sm m-1">수정</a>
+      <form action="{% url 'articles:delete' article.pk %}" method='POST'>
+        {% csrf_token %}
+        <input type="submit" value="삭제" class="btn btn-secondary btn-sm m-1">
+      </form>
+    {% endif %}
+        <a href="{% url 'articles:index' %}" class="btn btn-secondary btn-sm m-1">뒤로가기</a>
+    </div>
+    <hr>
+    <!-- 댓글 목록 -->
+    <ul class="list-group">
+      <p>댓글수 : {{ comments.count }}</p>
+      {% for comment in comments %}
+        <li class="list-group-item">
+          <p class="float-start"><b>{{ comment.user }}</b> - {{ comment }}</p>
+          {% if user == comment.user %}
+          <form action="{% url 'articles:comment_delete' article.pk comment.pk %}" method="POST" class="d-flex justify-content-end">
+            {% csrf_token %}
+            <input type="submit" value="삭제">
+          </form>
+          {% endif %}
+        </li>
+        {% empty %}
+        <p>댓글이 없습니다.</p>
+      {% endfor %}
+    </ul>
+    <!-- 댓글 작성-->
+    <form action="{% url 'articles:comment_create' article.pk %}" method='POST' class='d-flex justify-content-end'>
+      {% csrf_token %}
+      <div class="input-group">
+        {{ comment_form }}
+        <input type="submit" value="작성" class="btn btn-outline-secondary">
+      </div>
+    </form>
+  </div>
+{% endblock content %}

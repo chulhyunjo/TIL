@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h1 class="fw-bold">UPDATE</h1>
+  <hr>
+  <form action="{% url 'articles:update' article.pk %}" method="POST">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <div class="d-flex justify-content-end">
+      <input type="submit" class ="btn btn-secondary btn-sm me-2">
+      <a href="{% url 'articles:detail' article.pk %}" class = "btn btn-secondary btn-sm">취소</a>
+    </div>
+  </form>
+  <hr>
+{% endblock content %}

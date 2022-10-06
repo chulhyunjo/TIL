@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1 class="fw-bold float-start">Article</h1>
+<table class="table table-bordered table-hover">
+  <thead>
+    <tr>
+      <th class="col">#</th>
+      <th class="col">제목</th>
+      <th class="col">내용</th>
+      <th class="col">글쓴이</th>
+      <th class="col">수정일자</th>
+    </tr>
+  </thead>
+  {% for article in articles %}
+  <tbody>
+    <tr>
+      <th>{{ forloop.counter }}</th>
+    <td><a href="{% url 'articles:detail' article.pk %}" class="text-decoration-none text-black">{{ article.title }}</a></td>
+    <td><a href="{% url 'articles:detail' article.pk %}" class="text-decoration-none text-black">{{ article.content|truncatechars:50 }}</a></td>
+    <td>{{ article.user }}</td>
+    <td>{{ article.updated_at }}</td>
+  </tr>
+</tbody>
+{% endfor %}
+</table>
+<div class="d-flex justify-content-end">
+  <a href="{% url 'articles:create' %}" class="btn btn-secondary btn-sm m-2">CREATE</a>
+</div>
+{% endblock content %}
