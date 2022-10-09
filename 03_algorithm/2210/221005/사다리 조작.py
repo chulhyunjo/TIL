@@ -29,12 +29,21 @@ def backtracking(x, d, e):
 
 n, m, h = map(int,input().split())
 graph = [[0] * n for _ in range(h)]
+line = [0] * n
 
 for _ in range(m):
     a, b = map(int,input().split())
     graph[a-1][b-1] = 1
-minV = 4
+    line[b-1] += 1
 
+minV = 4
+odd = 0
+for i in range(n):
+    if line[i] % 2:
+        odd += 1
+if odd>3:
+    print(-1)
+    exit()
 backtracking(0, 0, 0)
 if minV != 4:
     print(minV)

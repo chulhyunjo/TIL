@@ -1,3 +1,5 @@
+from sys import stdin
+input = stdin.readline
 def dfs():
     for i in range(n):
         start = i
@@ -28,7 +30,7 @@ n, m, h = map(int,input().split())
 graph = [[0] * n for _ in range(h)]
 line = [0] * n
 for _ in range(m):
-    a, b = map(int,input().split())
+    a, b = map(int,input().rstrip().split())
     graph[a-1][b-1] = 1
     line[b-1] += 1
 

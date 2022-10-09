@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="cbe2b35a-a67b-437f-996c-8554b1d0d120" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2210/221005/사다리 조작.py" beforeDir="false" afterPath="$PROJECT_DIR$/2210/221005/사다리 조작.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2210/221005/사다리 조작2.py" beforeDir="false" afterPath="$PROJECT_DIR$/2210/221005/사다리 조작2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09_DB/221007/05_pjt" beforeDir="false" afterPath="$PROJECT_DIR$/../09_DB/221007/05_pjt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +54,7 @@
       <recent name="C:\Users\chaom\ssafy8\04_TIL\03_algorithm\220824\IM대비" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.10157">
     <configuration name="10157" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="03_algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -1095,12 +1097,33 @@
           <line>14</line>
           <option name="timeStamp" value="432" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/2210/221008/파이프 옮기기 1.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="433" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/2210/221008/캐슬 디펜스.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="439" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/2210/221008/캐슬 디펜스.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="441" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/2210/221008/캐슬 디펜스.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="442" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
         <watch expression="graph" language="Python" />
-        <watch expression="minV" language="Python" />
+        <watch expression="v" language="Python" />
+        <watch expression="nowZombie" language="Python" />
       </configuration>
     </watches-manager>
   </component>
