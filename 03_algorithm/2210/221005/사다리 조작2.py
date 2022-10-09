@@ -1,5 +1,3 @@
-from sys import stdin
-input = stdin.readline
 def dfs():
     for i in range(n):
         start = i
@@ -12,19 +10,19 @@ def dfs():
             return 0
     return 1
 
-def backtracking(x, idx):
+def backtracking(x, idx, depth):
     global minV
-    if minV <= x: return
-    if dfs():
-        minV = min(minV, x)
-    if x == 3: return
-    for i in range(idx+1, len(combination)):
-        a, b = combination[i]
-        graph[a][b] = 1
-        backtracking(x+1, idx+1)
-        graph[a][b] = 0
-        backtracking(x, idx+1)
-        break
+    if x == depth:
+        if dfs():
+            print(depth)
+            exit()
+    else:
+        if idx < l:
+            a, b = combination[idx]
+            graph[a][b] = 1
+            backtracking(x+1, idx+1, depth)
+            graph[a][b] = 0
+            backtracking(x, idx+1, depth)
 
 n, m, h = map(int,input().split())
 graph = [[0] * n for _ in range(h)]
@@ -42,18 +40,17 @@ if odd>3:
     print(-1)
     exit()
 
-combination = set()
+combination = []
+l = 0
 for i in range(h):
     for j in range(n-1):
         if j == 0 and graph[i][j] == graph[i][j+1] == 0:
-            combination.add((i,j))
+            combination.append((i,j))
+            l+=1
         elif j > 0 and graph[i][j-1] == graph[i][j+1] == graph[i][j] == 0:
-            combination.add((i,j))
-combination = list(combination)
-minV = 4
+            combination.append((i,j))
+            l+=1
 
-backtracking(0, -1)
-if minV != 4:
-    print(minV)
-else:
-    print(-1)
+for i in range(4):
+    backtracking(0, 0, i)
+print(-1)
