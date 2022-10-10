@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cbe2b35a-a67b-437f-996c-8554b1d0d120" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2210/221005/사다리 조작2.py" beforeDir="false" afterPath="$PROJECT_DIR$/2210/221005/사다리 조작2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06_CS지식/면접을 위한 CS 지식 노트/2.네트워크/2.4 IP주소.md" beforeDir="false" afterPath="$PROJECT_DIR$/../06_CS지식/면접을 위한 CS 지식 노트/2.네트워크/2.4 IP주소.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1141,11 +1139,62 @@
           <line>1</line>
           <option name="timeStamp" value="449" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/2210/221010/괄호 추가.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="450" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/2210/221010/부서지 타일.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="451" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/2210/221010/벽돌 깨기.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="454" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/2210/221010/벽돌 깨기.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="465" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/2210/221010/벽돌 깨기.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="466" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/2210/221010/벽돌 깨기.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="467" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/2210/221010/등산로 조성.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="468" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/2210/221010/등산로 조성.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="472" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/2210/221010/프로세서 연결하기.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="474" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/2210/221010/프로세서 연결하기.py</url>
+          <line>52</line>
+          <option name="timeStamp" value="475" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
-        <watch expression="graph" />
+        <watch expression="dy" />
+        <watch expression="new_graph" />
       </configuration>
     </watches-manager>
   </component>
