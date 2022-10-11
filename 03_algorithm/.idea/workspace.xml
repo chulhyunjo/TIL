@@ -44,11 +44,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\chaom\ssafy8\04_TIL\03_algorithm\2210\221011" />
       <recent name="C:\Users\chaom\ssafy8\04_TIL\03_algorithm\2210\221004" />
       <recent name="C:\Users\chaom\ssafy8\04_TIL\03_algorithm\2210\221001\boj" />
       <recent name="C:\Users\chaom\ssafy8\04_TIL\03_algorithm\2209\220920\swea" />
       <recent name="C:\Users\chaom\ssafy8\04_TIL\03_algorithm\2209\220918\boj" />
-      <recent name="C:\Users\chaom\ssafy8\04_TIL\03_algorithm\220824\IM대비" />
     </key>
   </component>
   <component name="RunManager">
@@ -1189,12 +1189,19 @@
           <line>52</line>
           <option name="timeStamp" value="475" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/2210/221011/색종이 붙이기.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="481" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
-        <watch expression="dy" />
-        <watch expression="new_graph" />
+        <watch expression="paper" language="Python" />
+        <watch expression="result" language="Python" />
+        <watch expression="graph" language="Python" />
+        <watch expression="paper" language="Python" />
       </configuration>
     </watches-manager>
   </component>
