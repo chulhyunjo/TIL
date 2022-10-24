@@ -4,7 +4,10 @@ def find(d):
     result = 0
     if check():
         if d == n:
-            return 1
+            if check():
+                return 1
+            else:
+                return 0
         arr.append(numbers[d])
         result += find(d+1)
         arr.pop()
