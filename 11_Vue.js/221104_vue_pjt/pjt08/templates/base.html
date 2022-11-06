@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <nav>
+    {% if user.is_authenticated %}
+      <h3>Hello, {{ user.username }}</h3>
+      <a href="{% url 'accounts:profile' user %}">내 프로필</a>
+      <form action="{% url 'accounts:logout' %}" method="POST">
+        {% csrf_token %}
+        <button type=input>로그아웃</button>
+      </form>
+    {% else %}
+      <a href="{% url 'accounts:login' %}">[로그인]</a>
+      <a href="{% url 'accounts:signup' %}">[회원가입]</a>
+    {% endif %}
+  </nav>
+  <hr>
+
+
+  <div>
+    {% block content %}
+    {% endblock content %}
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  {% block script %}
+  {% endblock script %}
+</body>
+</html>

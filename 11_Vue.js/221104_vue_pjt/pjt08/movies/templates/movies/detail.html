@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h1>Detail</h1>
+  <img src="{{ movie.poster_path }}" alt="poster">
+  <p>제목 : {{ movie.title }}</p>
+  <p>장르 : 
+    {% for genre in movie.genres.all %}
+      {% if forloop.counter == movie.genres.all|length %}
+        {{ genre.name }}
+      {% else %}
+        {{ genre.name}},
+      {% endif %}
+    {% endfor %}
+  </p>
+  <p>개봉일자 : {{ movie.release_date }}</p>
+  <p>평점 : {{ movie.vote_average }}</p>
+  <hr>
+  <p>줄거리 : {{ movie.overview }}</p>
+  <a href="{% url 'movies:index' %}">[back]</a>
+{% endblock content %}
