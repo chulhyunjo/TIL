@@ -22,4 +22,4 @@ while queue:
     for i in graph[x]:
         nums[i] -= 1
         if nums[i] == 0:
-            queue.appendleft(i)
+            queue.append(i)
